@@ -1,5 +1,9 @@
 {
   "name": "nextsandbox",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/econdie/next-sandbox.git"
+  },
   "version": "1.0.0",
   "description": "For learning, testing, building new things.",
   "main": "server.js",
@@ -11,9 +15,10 @@
   "author": "Erik Condie",
   "license": "ISC",
   "dependencies": {
-    "@vx/gradient": "0.0.165",
+    "@vx/gradient": "0.0.189",
     "@zeit/next-css": "^1.0.1",
     "express": "^4.17.1",
+    "js-yaml": ">=3.13.1",
     "flubber": "^0.4.2",
     "next": "^9.0.4",
     "react": "^16.9.0",
