@@ -18,11 +18,31 @@
     "@vx/gradient": "0.0.189",
     "@zeit/next-css": "^1.0.1",
     "express": "^4.17.1",
-    "js-yaml": ">=3.13.1",
     "flubber": "^0.4.2",
+    "js-yaml": ">=3.13.1",
     "next": "^9.0.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-spring": "^6.1.10"
+    "react-lazyload": "^2.6.2",
+    "react-spring": "^6.1.10",
+    "react-transition-group": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "husky": "^3.0.4",
+    "prettier": "1.18.2",
+    "pretty-quick": "^1.11.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }

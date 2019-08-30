@@ -1,16 +1,18 @@
 body {
-    min-height: 100vh;
-    background-color: #f5faff;
-    background-image: url(/static/img/cloud-bg.png);
-    background-position: center bottom;
-    background-repeat: no-repeat;
+  min-height: 100vh;
+  background-color: #f5faff;
 }
 
 .animated-div {
-    position: absolute;
-    bottom: 60px;
+  position: absolute;
+  bottom: 60px;
 }
 
 .animation {
-    max-height:100px;
+  max-height: 100px;
+}
+
+.faded-appear {
+  opacity: 0.3;
+  transition: opacity 10000ms ease-in;
 }
