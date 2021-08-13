@@ -20,7 +20,7 @@
     "express": "^4.17.1",
     "flubber": "^0.4.2",
     "js-yaml": ">=3.13.1",
-    "next": "^9.0.4",
+    "next": "^11.1.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-lazyload": "^2.6.2",
